@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70E0B1191B91076D001A81D0 /* SubSum.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E0B1181B91076D001A81D0 /* SubSum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70E0B1201B91076E001A81D0 /* SubSum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E0B1151B91076D001A81D0 /* SubSum.framework */; settings = {ASSET_TAGS = (); }; };
+		70E0B1251B91076E001A81D0 /* SubSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E0B1241B91076E001A81D0 /* SubSumTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70E0B1211B91076E001A81D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70E0B10C1B91076D001A81D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70E0B1141B91076D001A81D0;
+			remoteInfo = SubSum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70E0B1151B91076D001A81D0 /* SubSum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SubSum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E0B1181B91076D001A81D0 /* SubSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubSum.h; sourceTree = "<group>"; };
+		70E0B11A1B91076D001A81D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70E0B11F1B91076E001A81D0 /* SubSumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubSumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E0B1241B91076E001A81D0 /* SubSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubSumTests.swift; sourceTree = "<group>"; };
+		70E0B1261B91076E001A81D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70E0B1111B91076D001A81D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E0B11C1B91076E001A81D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E0B1201B91076E001A81D0 /* SubSum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70E0B10B1B91076D001A81D0 = {
+			isa = PBXGroup;
+			children = (
+				70E0B1171B91076D001A81D0 /* SubSum */,
+				70E0B1231B91076E001A81D0 /* SubSumTests */,
+				70E0B1161B91076D001A81D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70E0B1161B91076D001A81D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E0B1151B91076D001A81D0 /* SubSum.framework */,
+				70E0B11F1B91076E001A81D0 /* SubSumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70E0B1171B91076D001A81D0 /* SubSum */ = {
+			isa = PBXGroup;
+			children = (
+				70E0B1181B91076D001A81D0 /* SubSum.h */,
+				70E0B11A1B91076D001A81D0 /* Info.plist */,
+			);
+			path = SubSum;
+			sourceTree = "<group>";
+		};
+		70E0B1231B91076E001A81D0 /* SubSumTests */ = {
+			isa = PBXGroup;
+			children = (
+				70E0B1241B91076E001A81D0 /* SubSumTests.swift */,
+				70E0B1261B91076E001A81D0 /* Info.plist */,
+			);
+			path = SubSumTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		70E0B1121B91076D001A81D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E0B1191B91076D001A81D0 /* SubSum.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70E0B1141B91076D001A81D0 /* SubSum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E0B1291B91076E001A81D0 /* Build configuration list for PBXNativeTarget "SubSum" */;
+			buildPhases = (
+				70E0B1101B91076D001A81D0 /* Sources */,
+				70E0B1111B91076D001A81D0 /* Frameworks */,
+				70E0B1121B91076D001A81D0 /* Headers */,
+				70E0B1131B91076D001A81D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubSum;
+			productName = SubSum;
+			productReference = 70E0B1151B91076D001A81D0 /* SubSum.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70E0B11E1B91076E001A81D0 /* SubSumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E0B12C1B91076E001A81D0 /* Build configuration list for PBXNativeTarget "SubSumTests" */;
+			buildPhases = (
+				70E0B11B1B91076E001A81D0 /* Sources */,
+				70E0B11C1B91076E001A81D0 /* Frameworks */,
+				70E0B11D1B91076E001A81D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70E0B1221B91076E001A81D0 /* PBXTargetDependency */,
+			);
+			name = SubSumTests;
+			productName = SubSumTests;
+			productReference = 70E0B11F1B91076E001A81D0 /* SubSumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E0B10C1B91076D001A81D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Donnacha Oisín Kidney";
+				TargetAttributes = {
+					70E0B1141B91076D001A81D0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					70E0B11E1B91076E001A81D0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 70E0B10F1B91076D001A81D0 /* Build configuration list for PBXProject "SubSum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70E0B10B1B91076D001A81D0;
+			productRefGroup = 70E0B1161B91076D001A81D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70E0B1141B91076D001A81D0 /* SubSum */,
+				70E0B11E1B91076E001A81D0 /* SubSumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70E0B1131B91076D001A81D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E0B11D1B91076E001A81D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E0B1101B91076D001A81D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E0B11B1B91076E001A81D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E0B1251B91076E001A81D0 /* SubSumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70E0B1221B91076E001A81D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70E0B1141B91076D001A81D0 /* SubSum */;
+			targetProxy = 70E0B1211B91076E001A81D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70E0B1271B91076E001A81D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70E0B1281B91076E001A81D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70E0B12A1B91076E001A81D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SubSum/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = donnacha.oisin.kidney.SubSum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70E0B12B1B91076E001A81D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SubSum/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = donnacha.oisin.kidney.SubSum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		70E0B12D1B91076E001A81D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SubSumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = donnacha.oisin.kidney.SubSumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70E0B12E1B91076E001A81D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SubSumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = donnacha.oisin.kidney.SubSumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70E0B10F1B91076D001A81D0 /* Build configuration list for PBXProject "SubSum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E0B1271B91076E001A81D0 /* Debug */,
+				70E0B1281B91076E001A81D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E0B1291B91076E001A81D0 /* Build configuration list for PBXNativeTarget "SubSum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E0B12A1B91076E001A81D0 /* Debug */,
+				70E0B12B1B91076E001A81D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70E0B12C1B91076E001A81D0 /* Build configuration list for PBXNativeTarget "SubSumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E0B12D1B91076E001A81D0 /* Debug */,
+				70E0B12E1B91076E001A81D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E0B10C1B91076D001A81D0 /* Project object */;
+}
