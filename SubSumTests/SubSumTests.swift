@@ -14,7 +14,7 @@ extension CollectionType where
   SubSequence.Generator.Element == Generator.Element,
   SubSequence.SubSequence == SubSequence {
   
-  private func sumsTo(n: Generator.Element) -> Bool {
+  func sumsTo(n: Generator.Element) -> Bool {
     guard n > 0 else { return n == 0 }
     guard let x = first else { return false }
     let t = dropFirst()
