@@ -72,7 +72,7 @@ func canAddTo(array: [Int], number: Int) -> Bool {
 
 class SubSumTests: XCTestCase {
   
-  let ars = (0...100000).map { _ in
+  let ars = (0...10000).map { _ in
     (1...5).map { _ in Int(arc4random_uniform(10)) }
   }
   
