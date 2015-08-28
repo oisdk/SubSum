@@ -61,8 +61,8 @@ func has10(array: [Int]) -> Bool {
 func canAddTo(array: [Int], number: Int) -> Bool {
   return (0 ..< 1 << UInt64(array.count)).contains { (perm: UInt64) -> Bool in
     var sum = 0
-    for (index, elem) in array.enumerate() where perm & 1 << UInt64(index) != 0 {
-      sum += elem
+    for index in array.indices where perm & 1 << UInt64(index) != 0 {
+      sum += array[index]
       if sum >= 10 { break }
     }
     return sum == 10
@@ -91,7 +91,6 @@ class SubSumTests: XCTestCase {
     }
     
   }
-  
   
   func testOne() {
     self.measureBlock {
