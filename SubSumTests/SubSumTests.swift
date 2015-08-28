@@ -13,9 +13,9 @@ extension CollectionType where
   Generator.Element : IntegerType,
   SubSequence.Generator.Element == Generator.Element,
   SubSequence.SubSequence == SubSequence {
-  func sumsTo(n: Generator.Element) -> Bool {
-    if n < 0 { return false }
-    if n == 0 { return true }
+  
+  private func sumsTo(n: Generator.Element) -> Bool {
+    guard n > 0 else { return n == 0 }
     guard let x = first else { return false }
     let t = dropFirst()
     return t.sumsTo(n - x) || t.sumsTo(n)
@@ -72,7 +72,7 @@ func canAddTo(array: [Int], number: Int) -> Bool {
 
 class SubSumTests: XCTestCase {
   
-  let ars = (0...10000).map { _ in
+  let ars = (0..<10000).map { _ in
     (1...5).map { _ in Int(arc4random_uniform(10)) }
   }
   
